@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\Ketan\\Documents\\Visual Studio 2022\\Projects\\SpaceJam\\game0\\vs-2022\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{EDD58140-616C-495A-8167-2A785C4626E7}|saucer-shoot.vcxproj|C:\\Users\\Ketan\\Documents\\Visual Studio 2022\\Projects\\SpaceJam\\game0\\vs-2022\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{EDD58140-616C-495A-8167-2A785C4626E7}|saucer-shoot.vcxproj|solutionrelative:Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDD58140-616C-495A-8167-2A785C4626E7}|saucer-shoot.vcxproj|C:\\Users\\Ketan\\Documents\\Visual Studio 2022\\Projects\\SpaceJam\\game0\\vs-2022\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{EDD58140-616C-495A-8167-2A785C4626E7}|saucer-shoot.vcxproj|solutionrelative:Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EDD58140-616C-495A-8167-2A785C4626E7}|saucer-shoot.vcxproj|C:\\Users\\Ketan\\Documents\\Visual Studio 2022\\Projects\\SpaceJam\\game0\\game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -13,17 +21,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Player.h",
+              "DocumentMoniker": "C:\\Users\\Ketan\\Documents\\Visual Studio 2022\\Projects\\SpaceJam\\game0\\vs-2022\\Player.h",
+              "RelativeDocumentMoniker": "Player.h",
+              "ToolTip": "C:\\Users\\Ketan\\Documents\\Visual Studio 2022\\Projects\\SpaceJam\\game0\\vs-2022\\Player.h",
+              "RelativeToolTip": "Player.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-10-05T00:43:09.825Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Player.cpp",
+              "DocumentMoniker": "C:\\Users\\Ketan\\Documents\\Visual Studio 2022\\Projects\\SpaceJam\\game0\\vs-2022\\Player.cpp",
+              "RelativeDocumentMoniker": "Player.cpp",
+              "ToolTip": "C:\\Users\\Ketan\\Documents\\Visual Studio 2022\\Projects\\SpaceJam\\game0\\vs-2022\\Player.cpp",
+              "RelativeToolTip": "Player.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-10-05T00:43:00.478Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "game.cpp",
               "DocumentMoniker": "C:\\Users\\Ketan\\Documents\\Visual Studio 2022\\Projects\\SpaceJam\\game0\\game.cpp",
               "RelativeDocumentMoniker": "..\\game.cpp",
               "ToolTip": "C:\\Users\\Ketan\\Documents\\Visual Studio 2022\\Projects\\SpaceJam\\game0\\game.cpp",
               "RelativeToolTip": "..\\game.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-10-05T00:29:15.425Z",
               "EditorCaption": ""

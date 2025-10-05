@@ -1,10 +1,13 @@
-//
-// game.cpp
-// 
-
 // Engine includes.
 #include "GameManager.h"
 #include "LogManager.h"
+#include "ResourceManager.h"
+
+//Game includes
+#include "vs-2022/Player.h"
+
+void loadResources(void);
+void populateWorld(void);
 
 int main(int argc, char *argv[]) {
 
@@ -21,8 +24,27 @@ int main(int argc, char *argv[]) {
   // Show splash screen.
   df::splash();
 
+  for (int i = 0; i < 1; i++) {
+      printf("AHHHHHH");
+  }
+
+  //Prepare the game world
+  loadResources();
+  populateWorld();
+
+  //Start game loop
+  GM.run();
+  
   // Shut everything down.
   GM.shutDown();
   return 0;
+}
+
+void loadResources(void) {
+    RM.loadSprite("sprites/saucer-spr.txt", "player");
+}
+
+void populateWorld(void) {
+    new Player;
 }
 
