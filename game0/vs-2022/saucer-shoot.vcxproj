@@ -88,6 +88,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Door.h" />
     <ClInclude Include="EventKeycard.h" />
     <ClInclude Include="Keycard.h" />
     <ClInclude Include="Laser.h" />
@@ -97,6 +98,8 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\game.cpp" />
+    <ClCompile Include="Door.cpp" />
+    <ClCompile Include="Keycard.cpp" />
     <ClCompile Include="Laser.cpp" />
     <ClCompile Include="Player.cpp" />
   </ItemGroup>
