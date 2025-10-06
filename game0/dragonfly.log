@@ -1,6 +1,27 @@
-21:49:10    0 ****************************************************
-21:49:10    0 ** Dragonfly version 4.22 **
-21:49:10    0 ** Game engine started **
-21:49:10    0 ****************************************************
-21:49:19  179 ****************************************************
-21:49:19  179 ** Game engine stopped **
+00:11:51    0 ****************************************************
+00:11:51    0 ** Dragonfly version 4.22 **
+00:11:51    0 ** Game engine started **
+00:11:51    0 ****************************************************
+00:11:54   21 GameManager::run(): Can't keep up! frame_time 33 ms, split 37 ms
+00:11:54   22 GameManager::run(): Can't keep up! frame_time 33 ms, split 36 ms
+00:11:54   25 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+00:11:55   36 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+00:11:55   37 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+00:11:55   38 GameManager::run(): Can't keep up! frame_time 33 ms, split 36 ms
+00:11:55   39 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+00:11:55   40 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+00:11:55   43 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+00:11:55   46 GameManager::run(): Can't keep up! frame_time 33 ms, split 37 ms
+00:11:55   47 GameManager::run(): Can't keep up! frame_time 33 ms, split 37 ms
+00:11:56   63 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+00:11:56   64 GameManager::run(): Can't keep up! frame_time 33 ms, split 43 ms
+00:11:56   72 GameManager::run(): Can't keep up! frame_time 33 ms, split 39 ms
+00:11:56   73 GameManager::run(): Can't keep up! frame_time 33 ms, split 40 ms
+00:11:56   74 GameManager::run(): Can't keep up! frame_time 33 ms, split 36 ms
+00:11:56   75 GameManager::run(): Can't keep up! frame_time 33 ms, split 39 ms
+00:11:56   76 GameManager::run(): Can't keep up! frame_time 33 ms, split 41 ms
+00:11:56   77 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+00:11:56   78 GameManager::run(): Can't keep up! frame_time 33 ms, split 36 ms
+00:11:56   79 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+00:11:56   80 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+00:11:57   88 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
