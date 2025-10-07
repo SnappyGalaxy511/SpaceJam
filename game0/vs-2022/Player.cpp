@@ -2,6 +2,8 @@
 
 Player::Player() {
 	setSprite("player");
+	setType("player");
+	setPosition(df::Vector(5, 20));
 
 	m_horizontal_velocity = 0;
 	m_vertical_velocity = 0;

@@ -5,6 +5,7 @@
 
 //Game includes
 #include "vs-2022/Player.h"
+#include "vs-2022/LevelManager.h"
 
 void loadResources(void);
 void populateWorld(void);
@@ -46,5 +47,7 @@ void loadResources(void) {
 
 void populateWorld(void) {
     new Player;
+    LevelManager& level_manager = LevelManager::getInstance();
+    level_manager.startUp();
 }
 

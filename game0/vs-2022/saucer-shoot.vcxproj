@@ -92,7 +92,9 @@
     <ClInclude Include="EventKeycard.h" />
     <ClInclude Include="Keycard.h" />
     <ClInclude Include="Laser.h" />
+    <ClInclude Include="LevelManager.h" />
     <ClInclude Include="Player.h" />
+    <ClInclude Include="Tile.h" />
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>
@@ -101,7 +103,9 @@
     <ClCompile Include="Door.cpp" />
     <ClCompile Include="Keycard.cpp" />
     <ClCompile Include="Laser.cpp" />
+    <ClCompile Include="LevelManager.cpp" />
     <ClCompile Include="Player.cpp" />
+    <ClCompile Include="Tile.cpp" />
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>

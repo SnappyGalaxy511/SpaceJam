@@ -1,6 +1,7 @@
 #include "Keycard.h"
 #include "EventCollision.h"
 #include "WorldManager.h"
+#include "DisplayManager.h"
 #include "EventKeycard.h"
 
 using namespace df;
@@ -30,5 +31,14 @@ int Keycard::eventHandler(const Event* p_e) {
             return 1;
         }
     }
+    return 0;
+}
+
+int Keycard::draw() {
+    df::DisplayManager& disp = df::DisplayManager::getInstance();
+    const df::Vector p = getPosition();
+
+    disp.drawCh(df::Vector(p.getX(), p.getY()), drawChar, df::Color::YELLOW);
+
     return 0;
 }

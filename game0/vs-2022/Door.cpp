@@ -1,4 +1,5 @@
 #include "Door.h"
+#include "DisplayManager.h"
 #include "Event.h"
 #include "EventKeycard.h"
 
@@ -22,6 +23,14 @@ int Door::eventHandler(const df::Event* p_e) {
         return 1;
     }
     return 0;
+}
+
+int Door::draw() {
+    df::DisplayManager& disp = df::DisplayManager::getInstance();
+    const df::Vector p = getPosition();
+
+    disp.drawCh(df::Vector(p.getX(), p.getY()), '?', df::Color::YELLOW);
+    return 0; 
 }
 
 //States 
