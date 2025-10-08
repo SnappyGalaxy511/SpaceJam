@@ -94,6 +94,7 @@
     <ClInclude Include="Laser.h" />
     <ClInclude Include="LevelManager.h" />
     <ClInclude Include="Player.h" />
+    <ClInclude Include="SpawnPlayer.h" />
     <ClInclude Include="Tile.h" />
   </ItemGroup>
   <ItemGroup>
@@ -105,6 +106,7 @@
     <ClCompile Include="Laser.cpp" />
     <ClCompile Include="LevelManager.cpp" />
     <ClCompile Include="Player.cpp" />
+    <ClCompile Include="SpawnPlayer.cpp" />
     <ClCompile Include="Tile.cpp" />
   </ItemGroup>
   <ItemGroup>

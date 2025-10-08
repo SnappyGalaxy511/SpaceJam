@@ -3,10 +3,19 @@
 
 Tile::Tile() {
 	m_is_vertical = false;
+	setBox(df::Box(df::Vector(0, 0), 0.4, 0.4));
+
 }
 
 Tile::Tile(bool is_vertical) {
 	m_is_vertical = is_vertical;
+
+	if (is_vertical) {
+		setBox(df::Box(df::Vector(0, -0.25), 0.125, 1.75));
+	}
+	else {
+		setBox(df::Box(df::Vector(-0.25, -0.125), 2.5, 0.125));
+	}
 }
 
 int Tile::draw() {

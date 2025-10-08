@@ -30,9 +30,21 @@ private:
 
 	LevelElement level_one_object_list[255];
 
+	int m_current_level = 1;
+
 public:
 	static LevelManager& getInstance();
 	int startUp() override;
 	void shutDown() override;
-	void loadLevel(int level_index);
+
+	void clearLevel();
+	void loadLevelOne();
+	void loadLevelTwo();
+	void loadLevelThree();
+	void loadLevelVictory();
+	void loadLevel(int level);
+
+	int getCurrentLevel();
+
+
 };

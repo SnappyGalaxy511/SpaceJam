@@ -1,7 +1,4 @@
-﻿  LevelManager.cpp
-C:\Users\Ketan\Documents\Visual Studio 2022\Projects\SpaceJam\game0\vs-2022\LevelManager.cpp(6,75): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\Ketan\Documents\Visual Studio 2022\Projects\SpaceJam\game0\vs-2022\LevelManager.cpp(11,77): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\Ketan\Documents\Visual Studio 2022\Projects\SpaceJam\game0\vs-2022\LevelManager.cpp(16,81): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\Ketan\Documents\Visual Studio 2022\Projects\SpaceJam\game0\vs-2022\LevelManager.cpp(21,81): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\Ketan\Documents\Visual Studio 2022\Projects\SpaceJam\game0\vs-2022\LevelManager.cpp(40,1): warning C4172: returning address of local variable or temporary : $S1
+﻿  Player.cpp
+C:\Users\Ketan\Documents\Visual Studio 2022\Projects\SpaceJam\game0\vs-2022\Player.cpp(7,32): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\Ketan\Documents\Visual Studio 2022\Projects\SpaceJam\game0\vs-2022\Player.cpp(20,38): warning C4114: same type qualifier used more than once
   saucer-shoot.vcxproj -> C:\Users\Ketan\Documents\Visual Studio 2022\Projects\SpaceJam\game0\vs-2022\x64\Debug\saucer-shoot.exe

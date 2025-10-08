@@ -1,12 +1,12 @@
-23:51:48    0 ****************************************************
-23:51:48    0 ** Dragonfly version 4.22 **
-23:51:48    0 ** Game engine started **
-23:51:48    0 ****************************************************
-23:51:52   90 WorldManager::isValid(): Event df-collision handled automatically.
-23:51:52   90 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
-23:51:52   90 WorldManager::isValid(): Event df-collision handled automatically.
-23:51:52   90 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
-23:51:52   90 WorldManager::isValid(): Event df-collision handled automatically.
-23:51:52   90 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
-23:52:11  571 ****************************************************
-23:52:11  571 ** Game engine stopped **
+18:34:16    0 ****************************************************
+18:34:16    0 ** Dragonfly version 4.22 **
+18:34:16    0 ** Game engine started **
+18:34:16    0 ****************************************************
+18:34:20   90 WorldManager::isValid(): Event df-collision handled automatically.
+18:34:20   90 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
+18:34:20   90 WorldManager::isValid(): Event df-collision handled automatically.
+18:34:20   90 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
+18:34:20   90 WorldManager::isValid(): Event df-collision handled automatically.
+18:34:20   90 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
+18:34:51  932 ****************************************************
+18:34:51  932 ** Game engine stopped **

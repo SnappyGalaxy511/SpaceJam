@@ -1,6 +1,7 @@
 #include "Keycard.h"
 #include "EventCollision.h"
 #include "WorldManager.h"
+#include "LevelManager.h"
 #include "DisplayManager.h"
 #include "EventKeycard.h"
 
@@ -28,6 +29,10 @@ int Keycard::eventHandler(const Event* p_e) {
 
             // Remove the keycard safely at end of frame.
             WorldManager::getInstance().markForDelete(this);
+
+            //Testing LevelManager functionality
+            LevelManager::getInstance().clearLevel();
+            LevelManager::getInstance().loadLevel(LevelManager::getInstance().getCurrentLevel() + 1);
             return 1;
         }
     }

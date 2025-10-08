@@ -7,6 +7,7 @@
 #include "GameManager.h"
 #include "DisplayManager.h"
 #include "Color.h"
+#include "Player.h"
 
 using namespace df;
 
@@ -49,13 +50,18 @@ void Laser::setLength(int L) {
 }
 
 void Laser::updateBeamBox() {
-	const int w = (m_orient == Orientation::Horizontal) ? m_length : 1;
-	const int h = (m_orient == Orientation::Vertical) ? m_length : 1;
+	const float w = (m_orient == Orientation::Horizontal) ? m_length - 0.5 : 0.5;
+	const float h = (m_orient == Orientation::Vertical) ? m_length - 0.5 : 0.5;
 	setBox(df::Box(df::Vector(0, 0), w, h));
 }
 
 int Laser::eventHandler(const Event* p_e) {
 	if (p_e->getType() == STEP_EVENT) {
+
+		if (WM.objectsOfType("player").isEmpty()) {
+			new Player;
+		}
+
 		m_fsm.Update();      // Let current state tick once per frame.
 		return 1;
 	}
@@ -65,9 +71,12 @@ int Laser::eventHandler(const Event* p_e) {
 			auto* col = static_cast<const EventCollision*>(p_e);
 			Object* a = col->getObject1();
 			Object* b = col->getObject2();
-			if ((a && a->getType() == m_victim_type) ||
-				(b && b->getType() == m_victim_type)) {
-				GameManager::getInstance().setGameOver(true);
+
+			if (a && a->getType() == m_victim_type) {
+				WM.markForDelete(a);
+			}
+			if (b && b->getType() == m_victim_type) {
+				WM.markForDelete(b);
 			}
 		}
 		return 1;

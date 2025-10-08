@@ -2,9 +2,10 @@
 #include "GameManager.h"
 #include "LogManager.h"
 #include "ResourceManager.h"
+#include "WorldManager.h"
 
 //Game includes
-#include "vs-2022/Player.h"
+#include "vs-2022/SpawnPlayer.h"
 #include "vs-2022/LevelManager.h"
 
 void loadResources(void);
@@ -46,8 +47,11 @@ void loadResources(void) {
 }
 
 void populateWorld(void) {
-    new Player;
     LevelManager& level_manager = LevelManager::getInstance();
     level_manager.startUp();
+
+    new SpawnPlayer();
+    level_manager.loadLevel(1);
 }
+
 
