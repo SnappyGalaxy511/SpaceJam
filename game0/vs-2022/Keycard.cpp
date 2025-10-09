@@ -9,6 +9,7 @@ using namespace df;
 
 Keycard::Keycard() {
 	setType("Keycard");
+	setSprite("keycard");
 	setSolidness(SOFT);
 	registerInterest(df::COLLISION_EVENT);
 }
