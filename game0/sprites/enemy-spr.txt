@@ -1,0 +1,22 @@
+<HEADER>
+frames 2
+width 5
+height 4
+color red
+slowdown 2
+</HEADER>
+<BODY>
+ \ /
+('_')
+  |
+ /-\
+end
+ \ /
+('_')
+  |
+  | 
+end
+</BODY>
+<FOOTER>
+version 1
+</FOOTER>
