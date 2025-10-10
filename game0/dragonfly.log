@@ -1,12 +1,16 @@
-18:34:16    0 ****************************************************
-18:34:16    0 ** Dragonfly version 4.22 **
-18:34:16    0 ** Game engine started **
-18:34:16    0 ****************************************************
-18:34:20   90 WorldManager::isValid(): Event df-collision handled automatically.
-18:34:20   90 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
-18:34:20   90 WorldManager::isValid(): Event df-collision handled automatically.
-18:34:20   90 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
-18:34:20   90 WorldManager::isValid(): Event df-collision handled automatically.
-18:34:20   90 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
-18:34:51  932 ****************************************************
-18:34:51  932 ** Game engine stopped **
+04:37:57    0 ****************************************************
+04:37:57    0 ** Dragonfly version 4.22 **
+04:37:57    0 ** Game engine started **
+04:37:57    0 ****************************************************
+04:38:00   90 WorldManager::isValid(): Event df-collision handled automatically.
+04:38:00   90 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
+04:38:00   90 WorldManager::isValid(): Event df-collision handled automatically.
+04:38:00   90 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
+04:38:00   90 WorldManager::isValid(): Event df-collision handled automatically.
+04:38:00   90 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
+04:38:00   90 WorldManager::isValid(): Event df-collision handled automatically.
+04:38:00   90 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
+04:38:00   90 WorldManager::isValid(): Event df-collision handled automatically.
+04:38:00   90 Manager(WorldManager)::registerInterest(): Event 'df-collision' not valid for this Manager
+04:38:03   78 ****************************************************
+04:38:03   78 ** Game engine stopped **

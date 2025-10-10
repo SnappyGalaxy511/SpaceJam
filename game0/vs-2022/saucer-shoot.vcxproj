@@ -90,24 +90,35 @@
   <ItemGroup>
     <ClInclude Include="Door.h" />
     <ClInclude Include="EventKeycard.h" />
+    <ClInclude Include="Goal.h" />
+    <ClInclude Include="GuardBase.h" />
+    <ClInclude Include="GuardDirection.h" />
+    <ClInclude Include="GuardPatrol.h" />
+    <ClInclude Include="GuardStatic.h" />
     <ClInclude Include="Keycard.h" />
     <ClInclude Include="Laser.h" />
     <ClInclude Include="LevelManager.h" />
     <ClInclude Include="Player.h" />
     <ClInclude Include="SpawnPlayer.h" />
     <ClInclude Include="Tile.h" />
+    <ClInclude Include="Win.h" />
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\game.cpp" />
     <ClCompile Include="Door.cpp" />
+    <ClCompile Include="Goal.cpp" />
+    <ClCompile Include="GuardBase.cpp" />
+    <ClCompile Include="GuardPatrol.cpp" />
+    <ClCompile Include="GuardStatic.cpp" />
     <ClCompile Include="Keycard.cpp" />
     <ClCompile Include="Laser.cpp" />
     <ClCompile Include="LevelManager.cpp" />
     <ClCompile Include="Player.cpp" />
     <ClCompile Include="SpawnPlayer.cpp" />
     <ClCompile Include="Tile.cpp" />
+    <ClCompile Include="Win.cpp" />
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>

@@ -1,14 +1,12 @@
 #include "GuardStatic.h"
 #include "EventStep.h"
 
-GuardStatic::GuardStatic(int swap_period_steps,
-    GuardDirection start,
-    int vision_length, int vision_width) {
+GuardStatic::GuardStatic(int swap_period_steps, GuardDirection start, int vision_length, int vision_width) {
     m_swap_period_steps = swap_period_steps;
     m_facing = start;
     setVision(vision_length, vision_width);
     setType("GuardStatic");
-    setSprite("enemy");
+    printf("%d", setSprite("enemy"));
 }
 
 int GuardStatic::eventHandler(const df::Event* p_e) {

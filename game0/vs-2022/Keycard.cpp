@@ -31,20 +31,8 @@ int Keycard::eventHandler(const Event* p_e) {
             // Remove the keycard safely at end of frame.
             WorldManager::getInstance().markForDelete(this);
 
-            //Testing LevelManager functionality
-            LevelManager::getInstance().clearLevel();
-            LevelManager::getInstance().loadLevel(LevelManager::getInstance().getCurrentLevel() + 1);
             return 1;
         }
     }
-    return 0;
-}
-
-int Keycard::draw() {
-    df::DisplayManager& disp = df::DisplayManager::getInstance();
-    const df::Vector p = getPosition();
-
-    disp.drawCh(df::Vector(p.getX(), p.getY()), drawChar, df::Color::YELLOW);
-
     return 0;
 }

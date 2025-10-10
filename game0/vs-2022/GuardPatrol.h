@@ -12,7 +12,7 @@ public:
     GuardPatrol(const std::vector<df::Vector>& waypoints,
         float speed_cells_per_step = 0.5f,
         GuardDirection start = GuardDirection::East,
-        int vision_length = 8, int vision_width = 1);
+        int vision_length = 12, int vision_width = 1);
 
     int eventHandler(const df::Event* p_e) override;
 };

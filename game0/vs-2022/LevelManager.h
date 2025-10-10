@@ -1,10 +1,6 @@
 #pragma once
 
 #include "Manager.h"
-#include "Laser.h"
-#include "Tile.h"
-#include "Keycard.h"
-#include "Door.h"
 
 struct LevelElement {
 	df::Object *gameObject; 

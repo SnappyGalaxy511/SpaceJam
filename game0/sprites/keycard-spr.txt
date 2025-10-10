@@ -7,7 +7,7 @@ color yellow
 <BODY>
 +---+
 |~K~|
-+---+ 
++---+
 end
 </BODY>
 <FOOTER>

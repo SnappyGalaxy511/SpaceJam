@@ -7,7 +7,6 @@ class Door : public df::Object {
 public:
     Door();
     int eventHandler(const df::Event* p_e) override;
-    int draw() override;
 
 private:
     class StateClosed : public df::State {

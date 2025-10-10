@@ -1,4 +1,5 @@
-﻿  Player.cpp
-C:\Users\Ketan\Documents\Visual Studio 2022\Projects\SpaceJam\game0\vs-2022\Player.cpp(7,32): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\Ketan\Documents\Visual Studio 2022\Projects\SpaceJam\game0\vs-2022\Player.cpp(20,38): warning C4114: same type qualifier used more than once
+﻿  GuardPatrol.cpp
+libdragonfly-x64-debug.lib(Precipitation.obj) : warning LNK4099: PDB '' was not found with 'libdragonfly-x64-debug.lib(Precipitation.obj)' or at ''; linking object as if no debug info
+libdragonfly-x64-debug.lib(utility.obj) : warning LNK4099: PDB '' was not found with 'libdragonfly-x64-debug.lib(utility.obj)' or at ''; linking object as if no debug info
+libdragonfly-x64-debug.lib(Vector.obj) : warning LNK4099: PDB '' was not found with 'libdragonfly-x64-debug.lib(Vector.obj)' or at ''; linking object as if no debug info
   saucer-shoot.vcxproj -> C:\Users\Ketan\Documents\Visual Studio 2022\Projects\SpaceJam\game0\vs-2022\x64\Debug\saucer-shoot.exe

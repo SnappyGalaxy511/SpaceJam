@@ -3,18 +3,18 @@ frames 2
 width 5
 height 4
 color blue
-slowdown 2
+slowdown 8
 </HEADER>
 <BODY>
 _/~\_
 ('_')
-  |
- /-\
+\ | /
+ /-\ 
 end
 _/~\_
 ('_')
-  |
-  | 
+/ | \
+  |  
 end
 </BODY>
 <FOOTER>

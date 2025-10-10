@@ -4,7 +4,7 @@ Player::Player() {
 	setSprite("player");
 	setType("player");
 	setPosition(df::Vector(5, 20));
-	setBox(df::Box(df::Vector(-1, -0.6), 3.75, 1.5));
+	setBox(df::Box(df::Vector(-1.5, -2), 3, 3.75));
 
 	m_horizontal_velocity = 0;
 	m_vertical_velocity = 0;
@@ -77,8 +77,6 @@ void Player::movePlayer(float x_move, float y_move) {
 	if (m_step_countdown <= 0) {
 		float new_x = getPosition().getX() + x_move;
 		float new_y = getPosition().getY() + y_move / 2;
-
-		printf("%f\n", new_y);
 
 		if (new_x < 0 || new_x > WM.getBoundary().getHorizontal() || new_y < 0 || new_y > WM.getBoundary().getVertical() - 1) {
 			return;

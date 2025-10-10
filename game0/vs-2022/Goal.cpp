@@ -9,7 +9,7 @@
 
 Goal::Goal() {
 	setType("Goal");
-	setSolidness(df::SPECTRAL);     
+	setSolidness(df::SOFT);     
 	setAltitude(df::MAX_ALTITUDE); 
 	registerInterest(df::COLLISION_EVENT);
 	setSprite("goal");
@@ -21,7 +21,7 @@ void Goal::setNextLevel(int level_index) {
 
 bool Goal::isPlayer(const df::Object* o) const {
 	if (!o) return false;
-	if (o->getType() == "Player") return true;
+	if (o->getType() == "player") return true;
 	return dynamic_cast<const Player*>(o) != nullptr;
 }
 
@@ -31,7 +31,7 @@ void Goal::advanceLevel() {
 	int current = lm.getCurrentLevel();
 	int target = (m_next_level >= 0) ? m_next_level : (current + 1);
 
-	lm.loadLevel(target);
+	lm.loadLevel(lm.getCurrentLevel() + 1);
 }
 
 int Goal::eventHandler(const df::Event* p_e) {
@@ -40,8 +40,11 @@ int Goal::eventHandler(const df::Event* p_e) {
 		df::Object* a = col->getObject1();
 		df::Object* b = col->getObject2();
 
+		printf("Triggered collision in event handler!");
+
 		// If either colliding object is the player, trigger level advance
 		if (isPlayer(a) || isPlayer(b)) {
+			printf("collided with player");
 			advanceLevel();
 			return 1;
 		}

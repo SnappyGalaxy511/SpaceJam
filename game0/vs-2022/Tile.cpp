@@ -11,10 +11,10 @@ Tile::Tile(bool is_vertical) {
 	m_is_vertical = is_vertical;
 
 	if (is_vertical) {
-		setBox(df::Box(df::Vector(0, -0.25), 0.125, 1.75));
+		setBox(df::Box(df::Vector(0.125/2, -1.75/2), 0.125, 1.75));
 	}
 	else {
-		setBox(df::Box(df::Vector(-0.25, -0.125), 2.5, 0.125));
+		setBox(df::Box(df::Vector(-1, -0.125/2), 2, 0.125));
 	}
 }
 

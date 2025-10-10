@@ -7,6 +7,7 @@ using namespace df;
 
 Door::Door() {
     setType("Door");
+    setSprite("door");
     registerInterest(game::KEYCARD_EVENT);
 
     fsm_.setOwner(this);
@@ -23,14 +24,6 @@ int Door::eventHandler(const df::Event* p_e) {
         return 1;
     }
     return 0;
-}
-
-int Door::draw() {
-    df::DisplayManager& disp = df::DisplayManager::getInstance();
-    const df::Vector p = getPosition();
-
-    disp.drawCh(df::Vector(p.getX(), p.getY()), '?', df::Color::YELLOW);
-    return 0; 
 }
 
 //States 

@@ -134,8 +134,7 @@ bool GuardBase::canSeePlayer() {
 }
 
 void GuardBase::onPlayerSpotted() {
-	df::GameManager& gm = GM;
-	gm.setGameOver(true);
+	WM.markForDelete(WM.objectsOfType("player"));
 }
 
 void GuardBase::visionCheckAndReact() {

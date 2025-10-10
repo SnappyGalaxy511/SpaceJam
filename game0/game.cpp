@@ -26,10 +26,6 @@ int main(int argc, char *argv[]) {
   // Show splash screen.
   df::splash();
 
-  for (int i = 0; i < 1; i++) {
-      printf("AHHHHHH");
-  }
-
   //Prepare the game world
   loadResources();
   populateWorld();
@@ -43,7 +39,12 @@ int main(int argc, char *argv[]) {
 }
 
 void loadResources(void) {
-    RM.loadSprite("sprites/saucer-spr.txt", "player");
+    printf("%d", RM.loadSprite("sprites/win-spr.txt", "win"));
+    printf("%d", RM.loadSprite("sprites/keycard-spr.txt", "keycard"));
+    printf("%d", RM.loadSprite("sprites/enemy-spr.txt", "enemy"));
+    printf("%d", RM.loadSprite("sprites/goal-spr.txt", "goal"));
+    printf("%d", RM.loadSprite("sprites/player-spr.txt", "player"));
+    printf("%d", RM.loadSprite("sprites/door-spr.txt", "door")); 
 }
 
 void populateWorld(void) {

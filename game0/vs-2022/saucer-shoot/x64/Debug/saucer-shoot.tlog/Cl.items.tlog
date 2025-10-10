@@ -1,8 +1,13 @@
 C:\Users\Ketan\Documents\Visual Studio 2022\Projects\SpaceJam\game0\game.cpp;C:\Users\Ketan\Documents\Visual Studio 2022\Projects\SpaceJam\game0\vs-2022\saucer-shoot\x64\Debug\game.obj
 C:\Users\Ketan\Documents\Visual Studio 2022\Projects\SpaceJam\game0\vs-2022\Door.cpp;C:\Users\Ketan\Documents\Visual Studio 2022\Projects\SpaceJam\game0\vs-2022\saucer-shoot\x64\Debug\Door.obj
+C:\Users\Ketan\Documents\Visual Studio 2022\Projects\SpaceJam\game0\vs-2022\Goal.cpp;C:\Users\Ketan\Documents\Visual Studio 2022\Projects\SpaceJam\game0\vs-2022\saucer-shoot\x64\Debug\Goal.obj
+C:\Users\Ketan\Documents\Visual Studio 2022\Projects\SpaceJam\game0\vs-2022\GuardBase.cpp;C:\Users\Ketan\Documents\Visual Studio 2022\Projects\SpaceJam\game0\vs-2022\saucer-shoot\x64\Debug\GuardBase.obj
+C:\Users\Ketan\Documents\Visual Studio 2022\Projects\SpaceJam\game0\vs-2022\GuardPatrol.cpp;C:\Users\Ketan\Documents\Visual Studio 2022\Projects\SpaceJam\game0\vs-2022\saucer-shoot\x64\Debug\GuardPatrol.obj
+C:\Users\Ketan\Documents\Visual Studio 2022\Projects\SpaceJam\game0\vs-2022\GuardStatic.cpp;C:\Users\Ketan\Documents\Visual Studio 2022\Projects\SpaceJam\game0\vs-2022\saucer-shoot\x64\Debug\GuardStatic.obj
 C:\Users\Ketan\Documents\Visual Studio 2022\Projects\SpaceJam\game0\vs-2022\Keycard.cpp;C:\Users\Ketan\Documents\Visual Studio 2022\Projects\SpaceJam\game0\vs-2022\saucer-shoot\x64\Debug\Keycard.obj
 C:\Users\Ketan\Documents\Visual Studio 2022\Projects\SpaceJam\game0\vs-2022\Laser.cpp;C:\Users\Ketan\Documents\Visual Studio 2022\Projects\SpaceJam\game0\vs-2022\saucer-shoot\x64\Debug\Laser.obj
 C:\Users\Ketan\Documents\Visual Studio 2022\Projects\SpaceJam\game0\vs-2022\LevelManager.cpp;C:\Users\Ketan\Documents\Visual Studio 2022\Projects\SpaceJam\game0\vs-2022\saucer-shoot\x64\Debug\LevelManager.obj
 C:\Users\Ketan\Documents\Visual Studio 2022\Projects\SpaceJam\game0\vs-2022\Player.cpp;C:\Users\Ketan\Documents\Visual Studio 2022\Projects\SpaceJam\game0\vs-2022\saucer-shoot\x64\Debug\Player.obj
 C:\Users\Ketan\Documents\Visual Studio 2022\Projects\SpaceJam\game0\vs-2022\SpawnPlayer.cpp;C:\Users\Ketan\Documents\Visual Studio 2022\Projects\SpaceJam\game0\vs-2022\saucer-shoot\x64\Debug\SpawnPlayer.obj
 C:\Users\Ketan\Documents\Visual Studio 2022\Projects\SpaceJam\game0\vs-2022\Tile.cpp;C:\Users\Ketan\Documents\Visual Studio 2022\Projects\SpaceJam\game0\vs-2022\saucer-shoot\x64\Debug\Tile.obj
+C:\Users\Ketan\Documents\Visual Studio 2022\Projects\SpaceJam\game0\vs-2022\Win.cpp;C:\Users\Ketan\Documents\Visual Studio 2022\Projects\SpaceJam\game0\vs-2022\saucer-shoot\x64\Debug\Win.obj
